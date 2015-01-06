@@ -7,8 +7,13 @@
 
 int main()
 {
-	cout << "Hello, World!\n";
-	cout << "Here we go!\n";
+	cout << "Please enter a name then hit ENTER:\n";
+	string first_name;
+	int size;
+	cin >> first_name;
+	cout << "What's good, " << first_name << "\n";
+	cout << "Okay, now enter the size of your penis in Inches:\n";
+	cin >> size;
+	cout << "Wow! you're penis is only " << size << " inches. You're small...\n";
 	keep_window_open();
-	return 0;
 }
