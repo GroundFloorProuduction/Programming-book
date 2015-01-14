@@ -1,19 +1,32 @@
-// Programing PnPuC++.cpp : Defines the entry point for the console application.
+// hello_world.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
 #include "std_lib_facilities.h"
 
 
+
 int main()
 {
-	cout << "Please enter a name then hit ENTER:\n";
-	string first_name;
-	int size;
-	cin >> first_name;
-	cout << "What's good, " << first_name << "\n";
-	cout << "Okay, now enter the size of your penis in Inches:\n";
-	cin >> size;
-	cout << "Wow! you're penis is only " << size << " inches. You're small...\n";
+	cout << "What's yo name, nigga? (make it one word, I don't like spaces, bitch.) \n";
+	string name;
+	cin >> name;
+	cout << "hey bitch nigga, is yo name really " << name << "? Whatever, nigga. \n" <<
+		"But now type in two numbers.\n";
+	int num1;
+	int num2;
+	cout << "Type in a numbah: ";
+	cin >> num1;
+	cout << "aight, now type in another one: ";
+	cin >> num2;
+	cout << "Did you know those two numbers added together makes " << num1 + num2 << "?\n";
+	cout << "But you didn't know that cuz you a dumb nigga.\n" << "Heres some other shit you didn't know: \n"
+		<< "If you divided that shit it would be: " << num1 / num2 << ". \n";
+	cout << "If you mutiplied that shit, it would've been: " << num1 * num2 << ". \n";
+	cout << "If you squared those numbahs, they are: " << num1*num1 << ", and " << num2*num2 << ". \n";
+
 	keep_window_open();
+	return 0;
+
+
 }
