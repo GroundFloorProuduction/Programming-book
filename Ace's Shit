@@ -24,9 +24,16 @@ int main()
 		<< "If you divided that shit it would be: " << num1 / num2 << ". \n";
 	cout << "If you mutiplied that shit, it would've been: " << num1 * num2 << ". \n";
 	cout << "If you squared those numbahs, they are: " << num1*num1 << ", and " << num2*num2 << ". \n";
-
+	string noun;
+	string adj;
+	cout << "Okay, nigga. So I wan't you to to put in a noun. \n";
+	cin >> noun;
+	cout << "Iight, put in a word that describes that noun. \n";
+	cin >> adj;
+	cout << "So you think a " << noun << " is " << adj << "? Well I think you're a... " << adj << " nigga. \n";
+	string newname = adj + name;
+	cout << "well I guess now I'mma start callin you a " << newname << ". \n ";
+	cout << "You know what I mean, " << newname << "? \n";
 	keep_window_open();
 	return 0;
-
-
 }
