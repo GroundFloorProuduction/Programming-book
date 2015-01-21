@@ -32,8 +32,8 @@ int main()
 	cin >> adj;
 	cout << "So you think a " << noun << " is " << adj << "? Well I think you're a... " << adj << " nigga. \n";
 	string newname = adj + name;
-	cout << "well I guess now I'mma start callin you a " << newname << ". \n ";
-	cout << "You know what I mean, " << newname << "? \n";
+	cout << "well I guess now I'mma start callin you " << newname << ". \n ";
+	cout << "You know what I'm sayin, " << newname << "? \n";
 	keep_window_open();
 	return 0;
 }
