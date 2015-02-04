@@ -1,0 +1,28 @@
+#include "stdafx.h"
+#include "std_lib_facilities.h"
+
+void main()
+{
+	cout << "Please enter two numbers: \n";
+	float val1;
+	float val2;
+	while (cin >> val1 >> val2)
+	{
+		double val1double = val1;
+		double val2double = val2;
+		cout << "Your numbers are: " << val1double << " and " << val2double << "\n";
+		if (val1double > val2double){ cout << val1double << " Is a bigger number than " << val2double << '\n'; }
+		if (val1double < val2double){ cout << val1double << " Is a smaller number than " << val2double << '\n'; }
+		cout << " The sum of the two numbers are: " << val1double + val2double << "\n";
+		cout << " Subtracting " << val1double << " from " << val2double << " you get, " << val1double - val2double << '\n';
+		cout << " Multiplying the two numbers give you: " << val1double*val2double << '\n';
+		double division;
+		division = val1double / val2double;
+		cout << " Dividing the two numbers give you: " << division << '\n';
+
+
+
+	}
+
+	keep_window_open();
+}
