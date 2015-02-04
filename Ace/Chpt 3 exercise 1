@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include "std_lib_facilities.h"
+
+void main()
+{
+	cout << "Welcome to Ace's Miles to Kilometers converter.\n";
+	int MI;
+	cout << "Please enter the amount of Miles: ";
+	while (cin >> MI)
+	{
+		int KM;
+		double convert = 0;
+		convert = MI * 1.609;
+		cout << MI << " miles is approximately " << convert << " kilometers. \n";
+	}
+	
+
+	keep_window_open();
+}
