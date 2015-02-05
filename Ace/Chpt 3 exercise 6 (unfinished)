@@ -1,0 +1,30 @@
+#include "stdafx.h"
+#include "std_lib_facilities.h"
+
+void main()
+{
+	cout << "Hello! this point of this program is to order values that you put in from least to greatest.\n";
+	cout << "Please input 3 numbers (seperated by a space).\n";
+	int val1;
+	int val2;
+	int val3;
+	while (cin >> val1 >> val2 >> val3)
+	{
+		cout << "the numbers you inputed are: " << val1 << " " << val2 << " " << val3 << "\n";
+		int first;
+		int second;
+		int third;
+		third = val3;
+		if (val1 < val2) first = val1, second = val2;
+		if (val1 > val2) first = val2, second = val1;
+		if (second < val3) third = second, val3 = second;
+		if (second > val3) val3 = third;
+		if (val3 > first) third = second, first = val3;
+		cout << "in order they are: " << first << " " << second << " " << third << "\n";
+
+
+	}
+
+	//at this point something weird is happening, if I type in "1 2 3" I get "2 2 2" as a result.
+	keep_window_open();
+}
