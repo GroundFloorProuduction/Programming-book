@@ -6,6 +6,7 @@ C++ Programming Book lessons
 GIT COMMANDS:
 
 cd (directory): type cd and folder name to navigate
+cd .. : (add two dots) move up one directory
 
 dir/ls (dir in windows cmd, ls in git shell): shows all files/folers in current directory
 
